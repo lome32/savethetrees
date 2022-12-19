@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="site.css">
+  <style>	  
+	#signup{
+		justify-content:space-evenly;
+	}
+  </style>
+</head>
+<body>
+
+<main>
+	<div class="content small">
+		<form id="signup">
+			<h1>Sign up</h1>
+			<input name="login" type="text" placeholder="Login" required="required" pattern="[a-z, A-Z, 0-9]*"/>
+			<input name="password" type="password" placeholder="Password" required="required" pattern="[a-z, A-Z, 0-9]*"/>
+			<input name="name" type="text" placeholder="Name" required="required" pattern=".*"/>
+			<input name="birthday" type="text" onfocus="(this.type='date')"  placeholder="Date of birth"/>
+			<input name="email" type="email" placeholder="Email" required="required"/>
+			<input id = "signupButton" type="submit" style="white-space:  pre-wrap;" value="Start save
+nature"/>
+		</form>
+	</div>
+</main>
+
+<footer>
+	<div id="copyright">add_tree@gmail.com - you can mail to us. All right reserved</div>
+</footer>
+
+
+</body>
+</html>

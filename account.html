@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="site.css">
+  <style>
+	#account{
+		padding:20px;
+		display:flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: nowrap;
+	}
+
+	#account>input{
+		width: 300px;
+		font-size: 1em;
+		padding: 5px 10px;
+		margin: 10px 0;
+	}	
+  </style>
+</head>
+<body>
+
+<header>
+	<a class="button" href="index.html">Main page</a>
+	<a class="button" href="about.html">About us</a>
+	<a class="button current" href="account.html">Account</a>
+</header>
+
+<main>
+	<div class="content" id="account">
+		<h1>Personal account</h1>
+		<input name="login" type="text" placeholder="Login"/>
+		<input name="name" type="text" placeholder="Name"/>
+		<input name="birthday" type="text" onfocus="(this.type='date')"  placeholder="Date of birth"/>
+		<input name="email" type="email" placeholder="Email"/>
+	</div>
+</main>
+
+<footer>
+	<div id="copyright">add_tree@gmail.com - you can mail to us. All right reserved</div>
+</footer>
+
+
+</body>
+</html>

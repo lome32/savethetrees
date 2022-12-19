@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header{
+	padding:20px 20px 0 20px;
+	height:50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+.button{
+	border: solid 1px black;
+	padding:5px 15px;
+	text-decoration: none;
+	color: black;
+}
+.button:any-link{
+	color: black;
+}
+.button:hover{
+	color: black;
+	background-color: lightgray;	
+}
+.button.current{
+	background-color: lightgreen;
+}
+.button:first-child {
+	border-radius: 5px 0 0 5px;
+}
+.button:last-child {
+	border-radius: 0 5px 5px 0;
+}
+
+
+footer {
+    /* height: 25px; */
+	border-top: solid 1px black;
+	padding:10px 30px;
+}
+
+#copyright{
+	border: solid 1px black;
+	color: gray;
+	display:inline-block;
+	padding:5px;
+}
+
+
+
+
+main{
+	flex: auto;
+	height:100%;
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.content{
+	flex:auto;
+	border: solid 1px black;
+	margin: 30px;
+}
+	.content > h1{
+		font-weight: 500;
+	}
+	
+.content.small{
+	border: none;
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex-wrap: nowrap;
+	justify-content:center;
+	margin: 50px 30px;
+}
+	
+.content.small > form{
+	border: solid 1px black;
+	padding:30px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.content.small > form > input{
+	width: 300px;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px 0;
+}
+
+
+#signinButton {
+	width: 300px;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px 0;
+	transition-duration: 500ms; 
+}
+#signinButton:hover {
+	width: 300px;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px 0;
+	background-color: lightgreen;
+}
+
+
+#signupButton {
+	width: 300px;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px 0;
+	transition-duration: 500ms; 
+}
+#signupButton:hover {
+	width: 300px;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px 0;
+	background-color: lightgreen;
+}
+	
