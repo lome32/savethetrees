@@ -3,6 +3,10 @@
 <head>
   <link rel="stylesheet" href="site.css">
   <style>
+	main{
+		justify-content: space-between;
+		padding: 25px;
+	}
 	#account{
 		padding:20px;
 		display:flex;
@@ -17,12 +21,27 @@
 		font-size: 1em;
 		padding: 5px 10px;
 		margin: 10px 0;
+	}
+
+	#statistic{
+		width: 200px;
+		margin-left: 25px;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		
+		border: solid 0px black;
+	}
+	#statistic > h1{
+		font-weight: normal;
+		text-align: center;
 	}	
   </style>
 </head>
 <body>
 
-<header style="background-color: #FCFFB8">
+<header style="background-color: rgba(0,0,0,0.87)">
 	<a class="button" href="index.html">Main page</a>
 	<a class="button" href="about.html">About us</a>
 	<a class="button current" href="account.html">Account</a>
@@ -37,9 +56,20 @@
 		<input name="birthday" type="text" onfocus="(this.type='date')"  placeholder="Date of birth"/>
 		<input name="email" type="email" placeholder="Email"/>
 	</div>
+	<div id="statistic" style="background-color: #D1FFDA">
+		<h1>Personal statistics</h1>
+		<h1>45 <br>
+	views</h1>
+		<h1>90$ <br>
+	collected</h1>
+		<h1>2 <br>
+	trees <br>
+	saved</h1>
+	</div>
+
 </main>
 
-<footer style="background-color: #FCFFB8">
+<footer style="background-color: rgba(0,0,0,0.87)">
 	<div id="copyright">add_tree@gmail.com - you can mail to us. All right reserved</div>
 </footer>
 
