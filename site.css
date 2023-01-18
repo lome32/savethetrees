@@ -21,20 +21,23 @@ header{
 }
 
 .button{
-	border: solid 1px black;
+	border: solid 0px black;
 	padding:5px 15px;
 	text-decoration: none;
-	color: black;
+	color: whitesmoke;
 }
 .button:any-link{
-	color: black;
+	color: whitesmoke;
 }
 .button:hover{
-	color: black;
-	background-color: lightgray;	
+	color: whitesmoke;
+	background-color: rgb(83, 87, 87);	
 }
 .button.current{
-	background-color: lightgreen;
+	background-color:  #BAF3B7;
+	color:#2a5234;
+	font-weight: bold;
+	
 }
 .button:first-child {
 	border-radius: 5px 0 0 5px;
@@ -48,11 +51,12 @@ footer {
     /* height: 25px; */
 	border-top: solid 1px black;
 	padding:10px 30px;
+	
 }
 
 #copyright{
 	border: solid 1px black;
-	color: gray;
+	color:  gainsboro;
 	display:inline-block;
 	padding:5px;
 }
@@ -70,8 +74,8 @@ main{
 }
 .content{
 	flex:auto;
-	border: solid 1px black;
-	margin: 30px;
+	border: solid 0px black;
+	margin: 0px;
 }
 	.content > h1{
 		font-weight: 500;
